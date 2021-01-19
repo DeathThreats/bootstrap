@@ -115,6 +115,7 @@ function main(args) {
   const EXCLUDED_DIRS = new Set([
     '.git',
     '_gh_pages',
+    'dist',
     'node_modules',
     'resources'
   ])
